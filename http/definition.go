@@ -1,4 +1,4 @@
-// Copyright (C) 2026 neocotic
+// Copyright (C) 2025 jay-babu
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,7 +23,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/neocotic/go-problem"
+	"github.com/jay-babu/go-problem"
 )
 
 var (

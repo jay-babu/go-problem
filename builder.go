@@ -1,4 +1,4 @@
-// Copyright (C) 2026 neocotic
+// Copyright (C) 2025 jay-babu
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -27,8 +27,8 @@ import (
 	"maps"
 	"net/http"
 
+	"github.com/jay-babu/go-problem/internal/stack"
 	"github.com/neocotic/go-optional"
-	"github.com/neocotic/go-problem/internal/stack"
 )
 
 // Flag provides control over the generation of specific data and its visibility on their respective fields on a
@@ -45,6 +45,7 @@ type Flag uint8
 
 // FlagDisable disables generation (or inheritance) of the corresponding data and hides it on the Problem.
 const FlagDisable Flag = 0
+
 const (
 	// FlagField triggers generation (or inheritance) of the corresponding data and populates the respective exported
 	// field on the Problem.

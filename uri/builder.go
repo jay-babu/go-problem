@@ -1,4 +1,4 @@
-// Copyright (C) 2026 neocotic
+// Copyright (C) 2025 jay-babu
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -25,6 +25,7 @@ package uri
 
 import (
 	"fmt"
+	"github.com/neocotic/go-optional"
 	"maps"
 	"net/url"
 	"slices"

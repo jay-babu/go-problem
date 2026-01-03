@@ -1,4 +1,4 @@
-module github.com/neocotic/go-problem/zap
+module github.com/jay-babu/go-problem/zap
 
 go 1.24
 

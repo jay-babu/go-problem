@@ -1,3 +1,3 @@
 # Authors ordered by first contribution
 
-* neocotic <https://github.com/neocotic>
+* jay-babu <https://github.com/jay-babu>
